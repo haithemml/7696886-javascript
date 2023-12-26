@@ -24,5 +24,15 @@ if (motUtilisateur === listeMots[2]) {
     score++
 }
 
+
+
 // Affichage du score de l'utilisateur
 console.log("Votre score est de " + score + " sur 3")
+
+//for EACH loop
+motUtlisateur = ['Cachalot', 'Pétunia', 'Serviette'];
+index = 0;
+motUtilisateur.forEach(listeMots);
+function listeMots(item, index){
+    console.log(item);
+}
